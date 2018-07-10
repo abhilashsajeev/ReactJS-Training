@@ -1,0 +1,1 @@
+React JS is a JavaScript library. It only comprises of the view layer of any application.

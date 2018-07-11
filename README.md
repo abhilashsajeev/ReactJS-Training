@@ -1,9 +1,9 @@
 
 # ReactJS-Training
 
-Sample code for ReactJS training
+Sample codes for ReactJS training
 
-This project is classified in to various folders. First folders are of introductory in nature with sample code.
+This project is classified in to various folders. First set folders are of introductory in nature with sample code.
 
 [00 - Introduction to ReactJS](00-intro/introduction.md)
 

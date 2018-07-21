@@ -9,10 +9,10 @@ React is useful areas where the data is changing continiously.
 #### Problems with MVC
 ![SimpleMVC][mvcsimple]
 
-**But this get complex**
-![Complex MVC][mvccomplex]
+**But this get complex** ![Complex MVC][mvccomplex]
 
 React supports only one way data flow. When ever data changes we render the applications. But it will not be an expensive process like you think. It is because of React uses a algorithm called VIrtual DOM
+
 **Virtual DOM:**
 It is esssentially a light weight representaion of BrowserDOM. When ever data changes Reacts algorithm will compute the minimal components need to be altered and it will update only those components. No _Dirty checking_.
 ![Virtual DOM][vdom]
@@ -111,6 +111,7 @@ Now you know why we will use JSX
 
 We will use ECMAScript6 Standard to write ReactJS files
 
+See a sample React JS component finished in this [link](https://codesandbox.io/s/woxoln362k)
 
 [vdom]: https://cdn-images-1.medium.com/max/1173/1*jb7rWNWkjLcGri_GZhxBGA.png "Virtual DOM example"
 [logo]: https://cdn-images-1.medium.com/max/675/1*oi8WLwC2u0EEI1j9uKmwWg.png

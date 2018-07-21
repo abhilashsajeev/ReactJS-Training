@@ -6,8 +6,15 @@ Unlike Frameworks like Angular JS which contains all the parts of MVC ie, *Model
 
 React is useful areas where the data is changing continiously.
 
+#### Problems with MVC
+![SimpleMVC][mvcsimple]
 
+**But this get complex**
+![Complex MVC][mvccomplex]
+
+React supports only one way data flow. When ever data changes we render the applications. But it will not be an expensive process like you think. It is because of React uses a algorithm called VIrtual DOM
 **Virtual DOM:**
+It is esssentially a light weight representaion of BrowserDOM. When ever data changes Reacts algorithm will compute the minimal components need to be altered and it will update only those components. No _Dirty checking_.
 ![Virtual DOM][vdom]
 
 Current version of React contains two libraries one is **React** core library and the other is **ReactDOM** library.
@@ -80,7 +87,11 @@ Let us see the same code written using JSX and the hard way
 render(){
   return (
     <div className="shopping-list">
-
+      <h1>Hello World </h1>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+      </ul>
     </div>
   )
 }
@@ -88,14 +99,22 @@ render(){
 
 ```javascript
 return React.createElement('div', {className: 'shopping-list'},
-  React.createElement('h1', /* ... h1 children ... */),
-  React.createElement('ul', /* ... ul children ... */)
+  React.createElement('h1', null, "Hello World"),
+  React.createElement('ul', null,
+   React.createElement('li', null, "one"),
+   React.createElement('li', null, "two"))
 );
 ```
 
 
-We will use ECMA6Script Standard to write ReactJS files
+Now you know why we will use JSX
+
+We will use ECMAScript6 Standard to write ReactJS files
 
 
 [vdom]: https://cdn-images-1.medium.com/max/1173/1*jb7rWNWkjLcGri_GZhxBGA.png "Virtual DOM example"
 [logo]: https://cdn-images-1.medium.com/max/675/1*oi8WLwC2u0EEI1j9uKmwWg.png
+
+[mvcsimple]:https://koenig-media.raywenderlich.com/uploads/2016/06/MVC-feature-250x250.png
+
+[mvccomplex]:https://image.slidesharecdn.com/mvc2-161003142915/95/mvc-20-a-breakthrough-16-638.jpg?cb=1475505171

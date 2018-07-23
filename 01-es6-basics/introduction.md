@@ -30,7 +30,8 @@ function greet(name){
  function greet(name){
    const message = "Hello";
    if(name){
-     message = message + name // Triggers an error
+     const message = "Hi"
+     message = message + name ;
    }
  }
  ```

@@ -41,6 +41,6 @@ const Person = (props) => (
 )
 ```
 
-Let us code this ourself in practice [here](https://codesandbox.io/s/9jy8jjkzqo)
+Let us code this ourselves in practice [here](https://codesandbox.io/s/9jy8jjkzqo)
 
 ### [State](states.md)

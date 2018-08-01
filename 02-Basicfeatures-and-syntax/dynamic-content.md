@@ -14,8 +14,8 @@ const Person = ()=> (
 
 ```
 
-We can write only one line expressions / function returns here. Not a javascript classes or such big tasks.
-We will use this type of modifications and dynamisam throughout the use of reactjs
+We can write only one line expressions / function returns here. Not a JavaScript classes or such big tasks.
+We will use this type of modifications and dynamism throughout the use of Reactjs
 
 Let us see it in [Practical](https://codesandbox.io/s/9jy8jjkzqo)
 

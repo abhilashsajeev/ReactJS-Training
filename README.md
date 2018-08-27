@@ -9,4 +9,7 @@ This project is classified in to various folders. First set folders are of intro
 
 [01 - ECMA Script Basics for React](01-es6-basics/introduction.md)
 
-[02 - Basic features and syntax](01-es6-basics/index.md)
+[02 - Basic features and syntax](02-Basicfeatures-and-syntax/index.md)
+
+[03- Lists and conditionals]
+(03-lists-and-conditional-render/index.md)
